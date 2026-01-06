@@ -3,8 +3,8 @@ const WIDTH = 500;
 const HEIGHT = 350;
 
 const BG_COLOR = 0x1f2b8f;      // background
-const BOX_COLOR = 0xf0dc78;     // middle box
-const PLAYER_COLOR = 0xc85050;  // player circle
+const BOX_COLOR = 0xFFFFFF;     // middle box
+const PLAYER_COLOR = 0xFF0000;  // player circle
 
 let player;
 let target;
