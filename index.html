@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Phaser Project</title>
     <style>
-      body { margin: 0; background: hsl(0, 0%, 7%); }
+      body { margin: 0; background: #111; }
       canvas { display: block; margin: 20px auto; }
     </style>
   </head>
@@ -12,7 +12,7 @@
     <!-- Phaser library -->
     <script src="lib/phaser.min.js"></script>
 
-    <!-- Your game code -->
-    <script src="main.js"></script>
+    <!-- Main game file (module so it can import other files) -->
+    <script type="module" src="main.js"></script>
   </body>
 </html>
